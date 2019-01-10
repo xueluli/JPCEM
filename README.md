@@ -1,5 +1,6 @@
 # JPCEM
 Collaborative Priors for Multi-view ATR
+
 ######### ATR database #########
 _The Mid-Wave InfrarRed (MWIR) data base is the database collected by the US Army Night Vision and Electronic Sensors Directorate (NVESD) that is intended to support the ATR algorithm development community. The details about how the images are extracted, stored and labeled can be seen in the User Reference Guide.pdf from the original database. In the MWIR ATR database folder provided, only the processed data and the programs are available_
 
