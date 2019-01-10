@@ -2,11 +2,13 @@
 Collaborative Priors for Multi-view ATR
 
 ######### ATR database #########
+
 The Mid-Wave InfrarRed (MWIR) data base is the database collected by the US Army Night Vision and Electronic Sensors Directorate (NVESD) that is intended to support the ATR algorithm development community. The details about how the images are extracted, stored and labeled can be seen in the User Reference Guide.pdf from the original database. In the MWIR ATR database folder provided, only the processed data and the programs are available
 
 # Content of MWIR ATR database folder #
 
 **ATR GUI revised:**
+
 `ATR_GUI.fig`: GUI.
 `ATR_GUI.m`: program of the GUI.
 
@@ -14,11 +16,13 @@ The Mid-Wave InfrarRed (MWIR) data base is the database collected by the US Army
 Include the images used in the GUI. 
 
 **Multiview SRC:**
+
 `ImExtr.m`: used to form the training data and the test data.
 `MWIR_multiView.mat`: multi-view database including the training data, the training labels, the test data, and the test labels.
 (the label rule: 504: the view 5 from the class 04)
 `records.xlsx`: includes the parameters used for extracting the training data and the test data.
 **Programs:**
+
 [data]
 `MWIR_multiView.mat`: same as above.
 `cegr0####_#######`: image samples used for the program `Demo3_Sample_Test.m`
